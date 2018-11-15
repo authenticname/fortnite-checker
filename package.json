@@ -1,0 +1,27 @@
+{
+  "name": "fortnite_bulk_username_checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/authenticname/fortnite-checker.git"
+  },
+  "keywords": [
+    "fortnite",
+    "fortnite checker",
+    "fortnite bulk checker",
+    "fortnite username",
+    "fortnite username checker",
+    "fortnite bulk username checker"
+  ],
+  "scripts": {
+    "start": "node src/index"
+  },
+  "author": "Kovacs Alex",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "superagent": "^4.0.0-beta.5"
+  }
+}
