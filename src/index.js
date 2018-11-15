@@ -30,7 +30,8 @@ class Checker {
     }
 
     async check(usernames, available) {
-        for (let i = 0; i <= usernames.length; i++) {
+        for (let i = 0; i < usernames.length; i++) {
+            if (usernames[i].length > 16) { console.log(`The ${usernames[i]} username is too long... skipping over it.`); continue; }
             let { res } = await superagent.get(this.url(usernames[i]));
             res = JSON.parse(res.text);
             if (res.error && res.errorMessage === 'unknown_epic_user') { available.push(usernames[i]); continue; }
