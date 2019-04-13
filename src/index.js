@@ -15,7 +15,7 @@ class Checker {
         if (!input) {
             this.log("Looks like you don't have an input.txt file! Trying to create it...");
             await fs.ensureFile('./input.txt');
-            return this.log('File has been created, please enter the accounts you want to check! (make sure each one is on a new line)')
+            return this.log('File has been created, please enter the accounts you want to check! (make sure each one is on a new line)\nRun npm start once again once you\'ve done this!')
         }
 
         input = await fs.readFile('./input.txt');
