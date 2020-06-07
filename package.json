@@ -21,7 +21,7 @@
   "author": "Kovacs Alex",
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "^7.0.1",
+    "fs-extra": "^9.0.1",
     "node-fetch": "^2.3.0"
   }
 }
