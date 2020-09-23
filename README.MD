@@ -1,5 +1,7 @@
 # Fortnite Username availability checker 
 
+### Project currently archived - The API is now temporarily shut down
+
 *this project uses the [Unofficial Fornite API](https://fortniteapi.com)*
 
 ### Requirements
